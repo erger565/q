@@ -148,7 +148,10 @@ PlayState.init = function (data) {
     this.keys = this.game.input.keyboard.addKeys({
         left: Phaser.KeyCode.LEFT,
         right: Phaser.KeyCode.RIGHT,
-        up: Phaser.KeyCode.UP
+        up: Phaser.KeyCode.UP,
+        left: Phaser.KeyCode.A,
+        right: Phaser.KeyCode.D,
+        up: Phaser.KeyCode.W
     });
 
     // Subscribe key to signal (event)
