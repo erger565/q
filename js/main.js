@@ -149,9 +149,9 @@ PlayState.init = function (data) {
         left: Phaser.KeyCode.LEFT,
         right: Phaser.KeyCode.RIGHT,
         up: Phaser.KeyCode.UP,
-        left: Phaser.KeyCode.A,
-        right: Phaser.KeyCode.D,
-        up: Phaser.KeyCode.W
+        left: Phaser.KeyCode.65,
+        right: Phaser.KeyCode.68,
+        up: Phaser.KeyCode.87
     });
 
     // Subscribe key to signal (event)
